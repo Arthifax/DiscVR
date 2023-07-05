@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: e2e852cdb05c2fa41bdf61ab44fe81ef
+timeCreated: 1502980917
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Metro Pipes 2.001
+    100004: Metro Pipes 2.002
+    100006: Circle.002
+    100008: Circle.010
+    100010: Circle.011
+    100012: Circle.020
+    100014: Pipes_group_1_mount_1
+    100016: Pipes_group_1_mount_1.001
+    100018: Metro Pipes 2.003
+    100020: Metal_pipes_group_1_a_LOD0
+    100022: Metal_pipes_group_1_a_LOD1
+    400000: //RootNode
+    400002: Metro Pipes 2.001
+    400004: Metro Pipes 2.002
+    400006: Circle.002
+    400008: Circle.010
+    400010: Circle.011
+    400012: Circle.020
+    400014: Pipes_group_1_mount_1
+    400016: Pipes_group_1_mount_1.001
+    400018: Metro Pipes 2.003
+    400020: Metal_pipes_group_1_a_LOD0
+    400022: Metal_pipes_group_1_a_LOD1
+    2300000: Metro Pipes 2.001
+    2300002: Metro Pipes 2.002
+    2300004: Circle.002
+    2300006: Circle.010
+    2300008: Circle.011
+    2300010: Circle.020
+    2300012: Pipes_group_1_mount_1
+    2300014: Pipes_group_1_mount_1.001
+    2300016: Metro Pipes 2.003
+    2300018: Metal_pipes_group_1_a_LOD0
+    2300020: Metal_pipes_group_1_a_LOD1
+    3300000: Metro Pipes 2.001
+    3300002: Metro Pipes 2.002
+    3300004: Circle.002
+    3300006: Circle.010
+    3300008: Circle.011
+    3300010: Circle.020
+    3300012: Pipes_group_1_mount_1
+    3300014: Pipes_group_1_mount_1.001
+    3300016: Metro Pipes 2.003
+    3300018: Metal_pipes_group_1_a_LOD0
+    3300020: Metal_pipes_group_1_a_LOD1
+    4300000: Metro Pipes 2.002
+    4300002: Metro Pipes 2.001
+    4300004: Circle.020
+    4300006: Circle.011
+    4300008: Circle.002
+    4300010: Pipes_group_1_mount_1.001
+    4300012: Circle.010
+    4300014: Pipes_group_1_mount_1
+    4300016: Metro Pipes 2.003
+    4300018: Metal_pipes_group_1_a_LOD1
+    4300020: Metal_pipes_group_1_a_LOD0
+    20500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

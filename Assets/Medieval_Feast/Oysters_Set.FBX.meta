@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 46d0f6e429b2af244acea1c57f01ed14
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Dish_A
+    100002: Lemon_part31
+    100004: oyster
+    100006: oyster01
+    100008: oyster02
+    100010: oyster03
+    100012: oyster04
+    100014: oyster05
+    100016: oyster06
+    100018: oyster07
+    100020: oyster08
+    100022: oyster09
+    100024: oyster10
+    100026: oyster11
+    100028: //RootNode
+    100030: salad_leaf03
+    100032: salad_leaf04
+    100034: salad_leaf08
+    100036: salad_leaf09
+    100038: salad_leaf10
+    400000: Dish_A
+    400002: Lemon_part31
+    400004: oyster
+    400006: oyster01
+    400008: oyster02
+    400010: oyster03
+    400012: oyster04
+    400014: oyster05
+    400016: oyster06
+    400018: oyster07
+    400020: oyster08
+    400022: oyster09
+    400024: oyster10
+    400026: oyster11
+    400028: //RootNode
+    400030: salad_leaf03
+    400032: salad_leaf04
+    400034: salad_leaf08
+    400036: salad_leaf09
+    400038: salad_leaf10
+    2300000: Dish_A
+    2300002: Lemon_part31
+    2300004: oyster
+    2300006: oyster01
+    2300008: oyster02
+    2300010: oyster03
+    2300012: oyster04
+    2300014: oyster05
+    2300016: oyster06
+    2300018: oyster07
+    2300020: oyster08
+    2300022: oyster09
+    2300024: oyster10
+    2300026: oyster11
+    2300028: salad_leaf03
+    2300030: salad_leaf04
+    2300032: salad_leaf08
+    2300034: salad_leaf09
+    2300036: salad_leaf10
+    3300000: Dish_A
+    3300002: Lemon_part31
+    3300004: oyster
+    3300006: oyster01
+    3300008: oyster02
+    3300010: oyster03
+    3300012: oyster04
+    3300014: oyster05
+    3300016: oyster06
+    3300018: oyster07
+    3300020: oyster08
+    3300022: oyster09
+    3300024: oyster10
+    3300026: oyster11
+    3300028: salad_leaf03
+    3300030: salad_leaf04
+    3300032: salad_leaf08
+    3300034: salad_leaf09
+    3300036: salad_leaf10
+    4300000: oyster04
+    4300002: oyster10
+    4300004: salad_leaf04
+    4300006: Lemon_part31
+    4300008: oyster09
+    4300010: oyster
+    4300012: oyster01
+    4300014: oyster02
+    4300016: oyster03
+    4300018: oyster11
+    4300020: oyster05
+    4300022: oyster06
+    4300024: oyster07
+    4300026: oyster08
+    4300028: salad_leaf08
+    4300030: salad_leaf03
+    4300032: Dish_A
+    4300034: salad_leaf09
+    4300036: salad_leaf10
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

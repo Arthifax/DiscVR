@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 2803a1790dbcb60469553fcd7ea2fa66
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: 'Mesh '
+  - first:
+      1: 100004
+    second: polySurface347
+  - first:
+      1: 100006
+    second: transform12
+  - first:
+      1: 100008
+    second: Tunnel
+  - first:
+      1: 100010
+    second: Tunnel 1
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: 'Mesh '
+  - first:
+      4: 400004
+    second: polySurface347
+  - first:
+      4: 400006
+    second: transform12
+  - first:
+      4: 400008
+    second: Tunnel
+  - first:
+      4: 400010
+    second: Tunnel 1
+  - first:
+      21: 2100000
+    second: rust02
+  - first:
+      21: 2100002
+    second: gravel
+  - first:
+      21: 2100004
+    second: tiles01
+  - first:
+      21: 2100006
+    second: tiles03
+  - first:
+      21: 2100008
+    second: asphalt01
+  - first:
+      21: 2100010
+    second: concrete03
+  - first:
+      21: 2100012
+    second: rails
+  - first:
+      23: 2300000
+    second: //RootNode
+  - first:
+      23: 2300002
+    second: polySurface347
+  - first:
+      23: 2300004
+    second: Tunnel 1
+  - first:
+      33: 3300000
+    second: //RootNode
+  - first:
+      33: 3300002
+    second: polySurface347
+  - first:
+      33: 3300004
+    second: Tunnel 1
+  - first:
+      43: 4300000
+    second: Tunnel
+  - first:
+      43: 4300002
+    second: polySurface347
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concrete03
+    second: {fileID: 2100000, guid: 1f11623e0ded5e442b4f6da0a25afc3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gravel
+    second: {fileID: 2100000, guid: 017fc41d60535ad4b90846fc3b3b32db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rails
+    second: {fileID: 2100000, guid: f4c16f29da06bd443bf59aeae3eb2b73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rust02
+    second: {fileID: 2100000, guid: cefcd17625481de4abf68aa484ba340d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tiles01
+    second: {fileID: 2100000, guid: a9ff06090157ff14d912db0b674d2cf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tiles03
+    second: {fileID: 2100000, guid: 1416bd6ec5ca75b45a00977cf21fba01, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

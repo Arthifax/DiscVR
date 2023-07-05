@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: b764c1727931dd54f82f0091ccb60296
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Antarctic circle
+    100002: //RootNode
+    100004: Artic circle
+    100006: Base
+    100008: Ecliptic
+    100010: Equator
+    100012: Equinoctial colure
+    100014: Horizon
+    100016: Hour index
+    100018: Meridian
+    100020: North pole
+    100022: Pedestal
+    100024: Screw
+    100026: Solar system
+    100028: Solstitial colure
+    100030: South pole
+    100032: Sphere
+    100034: Tropic of Cancer
+    100036: Tropic of Capricorn
+    400000: Antarctic circle
+    400002: //RootNode
+    400004: Artic circle
+    400006: Base
+    400008: Ecliptic
+    400010: Equator
+    400012: Equinoctial colure
+    400014: Horizon
+    400016: Hour index
+    400018: Meridian
+    400020: North pole
+    400022: Pedestal
+    400024: Screw
+    400026: Solar system
+    400028: Solstitial colure
+    400030: South pole
+    400032: Sphere
+    400034: Tropic of Cancer
+    400036: Tropic of Capricorn
+    2100000: 'Material #2'
+    2100002: 'Material #1'
+    2300000: Antarctic circle
+    2300002: Artic circle
+    2300004: Ecliptic
+    2300006: Equator
+    2300008: Equinoctial colure
+    2300010: Horizon
+    2300012: Hour index
+    2300014: Meridian
+    2300016: North pole
+    2300018: Pedestal
+    2300020: Screw
+    2300022: Solar system
+    2300024: Solstitial colure
+    2300026: South pole
+    2300028: Tropic of Cancer
+    2300030: Tropic of Capricorn
+    3300000: Antarctic circle
+    3300002: Artic circle
+    3300004: Ecliptic
+    3300006: Equator
+    3300008: Equinoctial colure
+    3300010: Horizon
+    3300012: Hour index
+    3300014: Meridian
+    3300016: North pole
+    3300018: Pedestal
+    3300020: Screw
+    3300022: Solar system
+    3300024: Solstitial colure
+    3300026: South pole
+    3300028: Tropic of Cancer
+    3300030: Tropic of Capricorn
+    4300000: Pedestal
+    4300002: Horizon
+    4300004: Screw
+    4300006: Antarctic circle
+    4300008: Artic circle
+    4300010: Equator
+    4300012: Ecliptic
+    4300014: Equinoctial colure
+    4300016: Hour index
+    4300018: Meridian
+    4300020: North pole
+    4300022: Solar system
+    4300024: Solstitial colure
+    4300026: South pole
+    4300028: Tropic of Cancer
+    4300030: Tropic of Capricorn
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
