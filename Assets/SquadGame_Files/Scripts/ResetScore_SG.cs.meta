@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: f5c4577c1b19bd549a4ef12a3fbace7b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - squidgameScore: {fileID: 11400000, guid: 3fd836ae3a840ff4cb2cdbf71ed3a7ec, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
