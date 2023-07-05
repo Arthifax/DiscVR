@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: 56d1a52f78f536f4aadd8c5ac7ae3d94
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CharacterBase
+    100004: Gun_LP
+    100006: Mask
+    100008: QuickRigCharacter_Head
+    100010: QuickRigCharacter_Hips
+    100012: QuickRigCharacter_LeftArm
+    100014: QuickRigCharacter_LeftFoot
+    100016: QuickRigCharacter_LeftForeArm
+    100018: QuickRigCharacter_LeftHand
+    100020: QuickRigCharacter_LeftLeg
+    100022: QuickRigCharacter_LeftShoulder
+    100024: QuickRigCharacter_LeftToeBase
+    100026: QuickRigCharacter_LeftUpLeg
+    100028: QuickRigCharacter_Neck
+    100030: QuickRigCharacter_Reference2
+    100032: QuickRigCharacter_RightArm
+    100034: QuickRigCharacter_RightFoot
+    100036: QuickRigCharacter_RightForeArm
+    100038: QuickRigCharacter_RightHand
+    100040: QuickRigCharacter_RightLeg
+    100042: QuickRigCharacter_RightShoulder
+    100044: QuickRigCharacter_RightToeBase
+    100046: QuickRigCharacter_RightUpLeg
+    100048: QuickRigCharacter_Spine
+    100050: QuickRigCharacter_Spine1
+    100052: QuickRigCharacter_Spine2
+    400000: //RootNode
+    400002: CharacterBase
+    400004: Gun_LP
+    400006: Mask
+    400008: QuickRigCharacter_Head
+    400010: QuickRigCharacter_Hips
+    400012: QuickRigCharacter_LeftArm
+    400014: QuickRigCharacter_LeftFoot
+    400016: QuickRigCharacter_LeftForeArm
+    400018: QuickRigCharacter_LeftHand
+    400020: QuickRigCharacter_LeftLeg
+    400022: QuickRigCharacter_LeftShoulder
+    400024: QuickRigCharacter_LeftToeBase
+    400026: QuickRigCharacter_LeftUpLeg
+    400028: QuickRigCharacter_Neck
+    400030: QuickRigCharacter_Reference2
+    400032: QuickRigCharacter_RightArm
+    400034: QuickRigCharacter_RightFoot
+    400036: QuickRigCharacter_RightForeArm
+    400038: QuickRigCharacter_RightHand
+    400040: QuickRigCharacter_RightLeg
+    400042: QuickRigCharacter_RightShoulder
+    400044: QuickRigCharacter_RightToeBase
+    400046: QuickRigCharacter_RightUpLeg
+    400048: QuickRigCharacter_Spine
+    400050: QuickRigCharacter_Spine1
+    400052: QuickRigCharacter_Spine2
+    2100000: lambert3
+    2100002: lambert6
+    2100004: lambert11
+    2300000: Gun_LP
+    3300000: Gun_LP
+    4300000: Mask
+    4300002: CharacterBase
+    4300004: Gun_LP
+    7400000: Idle_Straight
+    7400002: Idle_Down
+    7400004: Idle_HoldGun
+    7400006: Shooting_StraightWhatever
+    7400008: Shooting_Downwards
+    9500000: //RootNode
+    13700000: CharacterBase
+    13700002: Mask
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle_Straight
+      takeName: Take 001
+      firstFrame: 8
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Idle_Down
+      takeName: Take 001
+      firstFrame: 113
+      lastFrame: 194
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Idle_HoldGun
+      takeName: Take 001
+      firstFrame: 199
+      lastFrame: 245
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Shooting_StraightWhatever
+      takeName: Take 001
+      firstFrame: 248
+      lastFrame: 347
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Shooting_Downwards
+      takeName: Take 001
+      firstFrame: 349
+      lastFrame: 393
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

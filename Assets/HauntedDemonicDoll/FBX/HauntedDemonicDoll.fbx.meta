@@ -1,0 +1,606 @@
+fileFormatVersion: 2
+guid: 0f4c484701f869b40b77d7be7e172571
+timeCreated: 1487386433
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back
+    100002: //RootNode
+    100004: HauntedDemonicDoll_M
+    100006: IKbackCurve
+    100008: j_arm_l
+    100010: j_arm_r
+    100012: j_hand_l
+    100014: j_hand_l_END
+    100016: j_hand_r
+    100018: j_hand_r_END
+    100020: j_head
+    100022: j_headEND
+    100024: j_root
+    100026: j_shoulder_l
+    100028: j_shoulder_r
+    100030: j_spine01
+    100032: j_spine02
+    100034: j_spineNeck
+    100036: HauntedDemonicDoll
+    400000: back
+    400002: //RootNode
+    400004: HauntedDemonicDoll_M
+    400006: IKbackCurve
+    400008: j_arm_l
+    400010: j_arm_r
+    400012: j_hand_l
+    400014: j_hand_l_END
+    400016: j_hand_r
+    400018: j_hand_r_END
+    400020: j_head
+    400022: j_headEND
+    400024: j_root
+    400026: j_shoulder_l
+    400028: j_shoulder_r
+    400030: j_spine01
+    400032: j_spine02
+    400034: j_spineNeck
+    400036: HauntedDemonicDoll
+    4300000: HauntedDemonicDoll_M
+    4300002: HauntedDemonicDoll
+    7400000: Breath -L-
+    7400002: Seek -L-
+    7400004: Look (left)
+    7400006: Return from -look left-
+    7400008: Look (right)
+    7400010: Return from -look right-
+    7400012: Subtle laugh
+    7400014: Creepy movement
+    9500000: //RootNode
+    13700000: HauntedDemonicDoll_M
+    13700002: HauntedDemonicDoll
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Breath -L-
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HauntedDemonicDoll_M
+        weight: 1
+      - path: j_root
+        weight: 1
+      - path: j_root/j_spine01
+        weight: 1
+      - path: j_root/j_spine01/j_spine02
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head/j_headEND
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l/j_hand_l_END
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r/j_hand_r_END
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Seek -L-
+      takeName: Take 001
+      firstFrame: 96
+      lastFrame: 330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HauntedDemonicDoll
+        weight: 1
+      - path: j_root
+        weight: 1
+      - path: j_root/j_spine01
+        weight: 1
+      - path: j_root/j_spine01/j_spine02
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head/j_headEND
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l/j_hand_l_END
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r/j_hand_r_END
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Look (left)
+      takeName: Take 001
+      firstFrame: 331
+      lastFrame: 359
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HauntedDemonicDoll
+        weight: 1
+      - path: j_root
+        weight: 1
+      - path: j_root/j_spine01
+        weight: 1
+      - path: j_root/j_spine01/j_spine02
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head/j_headEND
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l/j_hand_l_END
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r/j_hand_r_END
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Return from -look left-
+      takeName: Take 001
+      firstFrame: 360
+      lastFrame: 385
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HauntedDemonicDoll
+        weight: 1
+      - path: j_root
+        weight: 1
+      - path: j_root/j_spine01
+        weight: 1
+      - path: j_root/j_spine01/j_spine02
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head/j_headEND
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l/j_hand_l_END
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r/j_hand_r_END
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Look (right)
+      takeName: Take 001
+      firstFrame: 385
+      lastFrame: 416
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HauntedDemonicDoll
+        weight: 1
+      - path: j_root
+        weight: 1
+      - path: j_root/j_spine01
+        weight: 1
+      - path: j_root/j_spine01/j_spine02
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head/j_headEND
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l/j_hand_l_END
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r/j_hand_r_END
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Return from -look right-
+      takeName: Take 001
+      firstFrame: 417
+      lastFrame: 432
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HauntedDemonicDoll
+        weight: 1
+      - path: j_root
+        weight: 1
+      - path: j_root/j_spine01
+        weight: 1
+      - path: j_root/j_spine01/j_spine02
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head/j_headEND
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l/j_hand_l_END
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r/j_hand_r_END
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Subtle laugh
+      takeName: Take 001
+      firstFrame: 433
+      lastFrame: 467
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HauntedDemonicDoll
+        weight: 1
+      - path: j_root
+        weight: 1
+      - path: j_root/j_spine01
+        weight: 1
+      - path: j_root/j_spine01/j_spine02
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head/j_headEND
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l/j_hand_l_END
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r/j_hand_r_END
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Creepy movement
+      takeName: Take 001
+      firstFrame: 468
+      lastFrame: 552
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HauntedDemonicDoll
+        weight: 1
+      - path: j_root
+        weight: 1
+      - path: j_root/j_spine01
+        weight: 1
+      - path: j_root/j_spine01/j_spine02
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_head/j_headEND
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_l/j_arm_l/j_hand_l/j_hand_l_END
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r
+        weight: 1
+      - path: j_root/j_spine01/j_spine02/j_spineNeck/j_shoulder_r/j_arm_r/j_hand_r/j_hand_r_END
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
