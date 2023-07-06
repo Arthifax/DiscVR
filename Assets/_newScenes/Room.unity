@@ -10548,6 +10548,10 @@ PrefabInstance:
       propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
       objectReference: {fileID: 102175869}
+    - target: {fileID: 783368708, guid: 56db54644d85b4e45bc0aa507cfcf90f, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1624304000, guid: 56db54644d85b4e45bc0aa507cfcf90f, type: 3}
       propertyPath: m_InteractionManager
       value: 
