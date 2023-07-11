@@ -5,8 +5,8 @@ using UnityEngine;
 public class Screen_Fade : MonoBehaviour
 {
         [Tooltip("Define the duration of screen fade.")]
-        public float fadeTime = 5.0f;
-        public float fastFadeTime = 2.0f;
+        public float fadeTime = 2.5f;
+        public float fastFadeTime = 1.0f;
         [Tooltip("Define the color of screen fade.")]
         public Color fadeColor = new Color(0.0f, 0.0f, 0.0f, 1f);
         public int renderQueue = 5000;

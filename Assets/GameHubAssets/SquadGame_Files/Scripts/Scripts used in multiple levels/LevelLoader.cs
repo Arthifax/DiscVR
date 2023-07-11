@@ -18,9 +18,9 @@ public class LevelLoader : MonoBehaviour
     
     private IEnumerator FadeAndChange()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.5f);
         screenFade.FadeOut();
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene(nextLevel);
     }
     private IEnumerator FadeAndReload()
