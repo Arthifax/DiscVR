@@ -35,16 +35,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_ScrumVRScenes/NewBank/Office_New.unity
     guid: 5f620e90cc264b14fbb22203b42b02f4
-  - enabled: 1
+  - enabled: 0
     path: Assets/_ScrumVRScenes/Classroom.unity
     guid: a752f7b537e313e47993d46895852a35
-  - enabled: 1
+  - enabled: 0
     path: Assets/_ScrumVRScenes/Bank.unity
     guid: 38185dc789891ea43935bbab63e16314
-  - enabled: 1
+  - enabled: 0
     path: Assets/_ScrumVRScenes/Vault.unity
     guid: e78840c727325e44f9249ddae8da157c
-  - enabled: 1
+  - enabled: 0
     path: Assets/_ScrumVRScenes/Subway.unity
     guid: 7c9e693d9d90fd7468297cac94e4fbac
   m_configObjects:
