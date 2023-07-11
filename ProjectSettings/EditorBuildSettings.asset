@@ -26,6 +26,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_newScenes/Office.unity
     guid: e0fc8c4550c266742a24036f5bdd43ac
+  - enabled: 1
+    path: Assets/_ScrumVRScenes/Classroom.unity
+    guid: a752f7b537e313e47993d46895852a35
+  - enabled: 1
+    path: Assets/_ScrumVRScenes/Bank.unity
+    guid: 38185dc789891ea43935bbab63e16314
+  - enabled: 1
+    path: Assets/_ScrumVRScenes/Vault.unity
+    guid: e78840c727325e44f9249ddae8da157c
+  - enabled: 1
+    path: Assets/_ScrumVRScenes/Subway.unity
+    guid: 7c9e693d9d90fd7468297cac94e4fbac
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: e72bfcc37d0bd6b428ad27ad4d379d10, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 50a6e31833b910147a911b12b75fea56, type: 2}
