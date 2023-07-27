@@ -8540,7 +8540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5390345143351048395, guid: e500f0f46caf3af46b7155a348fc7151, type: 3}
       propertyPath: exitToLevelName
-      value: Bank_New
+      value: HubScene_Scrum
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e500f0f46caf3af46b7155a348fc7151, type: 3}
