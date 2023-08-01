@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Animations.Rigging;
 
@@ -10,6 +11,10 @@ public class NPCController : MonoBehaviour
     [SerializeField] Rig rig;
     [SerializeField] float headTurnSpeed = 0.5f;
     [SerializeField] private bool turnsHead = false;
+
+    [SerializeField] private TextMeshPro playerTextField;
+    [SerializeField] private String characterText;
+    private bool canTalk = false;
     float targetWeight = 0;
 
     private void OnTriggerEnter(Collider other)
@@ -18,6 +23,8 @@ public class NPCController : MonoBehaviour
         {
             TurnHead();
         }
+
+        canTalk = true;
     }
 
     private void OnTriggerExit(Collider other)
@@ -26,6 +33,8 @@ public class NPCController : MonoBehaviour
         {
             TurnHead();
         }
+        playerTextField.text = "";
+        canTalk = false;
     }
 
     public void TurnHead()
@@ -56,6 +65,14 @@ public class NPCController : MonoBehaviour
                 elapsedTime += Time.deltaTime;
                 yield return null;
             }
+        }
+    }
+
+    public void TalkToPerson()
+    {
+        if (canTalk && playerTextField != null)
+        {
+            playerTextField.text = characterText;
         }
     }
 }
