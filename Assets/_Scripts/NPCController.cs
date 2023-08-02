@@ -19,22 +19,29 @@ public class NPCController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (turnsHead)
+        if (other.gameObject.tag == "Player")
         {
-            TurnHead();
-        }
+            if (turnsHead)
+            {
+                TurnHead();
+            }
 
-        canTalk = true;
+            canTalk = true;   
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (turnsHead)
+        if (other.gameObject.tag == "Player")
         {
-            TurnHead();
+            if (turnsHead)
+            {
+                TurnHead();
+            }
+
+            playerTextField.text = "";
+            canTalk = false;
         }
-        playerTextField.text = "";
-        canTalk = false;
     }
 
     public void TurnHead()
