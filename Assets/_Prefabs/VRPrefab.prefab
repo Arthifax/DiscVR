@@ -564,23 +564,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 185696255172261825, guid: 1b3ab18c548d8e0408dee063618c2c30, type: 3}
   m_PrefabInstance: {fileID: 4511424029671722516}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4950816327289751731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4325836643330636245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Camera: {fileID: 4325836644269884379}
-  m_OriginBaseGameObject: {fileID: 4325836643330636245}
-  m_CameraFloorOffsetObject: {fileID: 4325836645196251440}
-  m_RequestedTrackingOriginMode: 1
-  m_CameraYOffset: 0
 --- !u!114 &2508525795005542410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -618,11 +601,45 @@ MonoBehaviour:
   systemFFRLevel: -1
   appCheckResult: 100
   useRecommendedAntiAliasingLevel: 1
+--- !u!114 &4950816327289751731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4325836643330636245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 4325836644269884379}
+  m_OriginBaseGameObject: {fileID: 4325836643330636245}
+  m_CameraFloorOffsetObject: {fileID: 4325836645196251440}
+  m_RequestedTrackingOriginMode: 1
+  m_CameraYOffset: 0
 --- !u!1 &4325836643816489842 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 185696254686285158, guid: 1b3ab18c548d8e0408dee063618c2c30, type: 3}
   m_PrefabInstance: {fileID: 4511424029671722516}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5390345143660994606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4325836643816489842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef417c466daa1d4eafc8bcdb645ee5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 3797686807230962072}
+  escapeMenu: {fileID: 2386092833170927494}
+  RightController: 1
+  exitToLevelName: 
+  tagName: Teleporter
 --- !u!114 &5959155815032296937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -655,13 +672,18 @@ MonoBehaviour:
   m_MoveObjectOut: 15
   m_DirectionalAnchorRotation: 1
   m_PoseProvider: {fileID: 0}
---- !u!114 &5390345143660994606
+--- !u!1 &4325836643964765642 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 185696255620271070, guid: 1b3ab18c548d8e0408dee063618c2c30, type: 3}
+  m_PrefabInstance: {fileID: 4511424029671722516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5390345142373155951
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4325836643816489842}
+  m_GameObject: {fileID: 4325836643964765642}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ef417c466daa1d4eafc8bcdb645ee5a, type: 3}
@@ -669,14 +691,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 3797686807230962072}
   escapeMenu: {fileID: 2386092833170927494}
-  RightController: 1
+  RightController: 0
   exitToLevelName: 
   tagName: Teleporter
---- !u!1 &4325836643964765642 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 185696255620271070, guid: 1b3ab18c548d8e0408dee063618c2c30, type: 3}
-  m_PrefabInstance: {fileID: 4511424029671722516}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &8216469071986496773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -709,23 +726,6 @@ MonoBehaviour:
   m_MoveObjectOut: 15
   m_DirectionalAnchorRotation: 1
   m_PoseProvider: {fileID: 0}
---- !u!114 &5390345142373155951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4325836643964765642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ef417c466daa1d4eafc8bcdb645ee5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 3797686807230962072}
-  escapeMenu: {fileID: 2386092833170927494}
-  RightController: 0
-  exitToLevelName: 
-  tagName: Teleporter
 --- !u!1 &4325836644269884357 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 185696255306730961, guid: 1b3ab18c548d8e0408dee063618c2c30, type: 3}

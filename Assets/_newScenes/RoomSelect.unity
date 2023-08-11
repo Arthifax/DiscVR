@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 621157845}
-  m_IndirectSpecularColor: {r: 0.057749078, g: 0.07097583, b: 0.091226436, a: 1}
+  m_IndirectSpecularColor: {r: 0.004669447, g: 0.0060937363, b: 0.008714781, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1117,6 +1117,7 @@ MonoBehaviour:
   player: {fileID: 136143154}
   escapeMenu: {fileID: 136143157}
   RightController: 0
+  exitToLevelName: 
   tagName: Teleporter
 --- !u!1 &136143157 stripped
 GameObject:
@@ -6368,6 +6369,7 @@ MonoBehaviour:
   player: {fileID: 136143154}
   escapeMenu: {fileID: 136143157}
   RightController: 0
+  exitToLevelName: 
   tagName: Teleporter
 --- !u!1001 &919686553
 PrefabInstance:
@@ -9659,6 +9661,7 @@ MonoBehaviour:
   player: {fileID: 136143154}
   escapeMenu: {fileID: 136143157}
   RightController: 1
+  exitToLevelName: 
   tagName: Teleporter
 --- !u!1001 &1533256365
 PrefabInstance:

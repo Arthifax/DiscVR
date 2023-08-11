@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.16400933, g: 0.19318381, b: 0.254562, a: 1}
+  m_IndirectSpecularColor: {r: 0.022977589, g: 0.031020625, b: 0.052721594, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6668,7 +6668,7 @@ MeshFilter:
   m_Mesh: {fileID: 4300032, guid: 7447755807c609646b921936cbf53bb2, type: 3}
 --- !u!95 &8923319137897417762
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6685,7 +6685,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &8923319138009309807
 PrefabInstance:
   m_ObjectHideFlags: 0

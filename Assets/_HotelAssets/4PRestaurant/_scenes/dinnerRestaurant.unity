@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 621157845}
-  m_IndirectSpecularColor: {r: 0.4479952, g: 0.4972884, b: 0.57234013, a: 1}
+  m_IndirectSpecularColor: {r: 0.16902359, g: 0.21153995, b: 0.28721136, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -203,7 +203,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: -180.00002, z: 0}
 --- !u!95 &14695153
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95185306397301672, guid: 927347f18286d9c4eb05cd416fc46cd9, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -220,7 +220,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &14695154
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1079,7 +1080,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: -180.00002, z: 0}
 --- !u!95 &161297755
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95372721945144606, guid: 927347f18286d9c4eb05cd416fc46cd9, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -1096,7 +1097,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &161297756
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2373,7 +2375,7 @@ MeshCollider:
   m_Mesh: {fileID: 4300000, guid: 85d2f48a06a7f3041afb976395204b64, type: 3}
 --- !u!95 &322406027
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95254286302894516, guid: 94fd8b1fd267eaa40b0ebb5dc647610f, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -2390,7 +2392,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &322406028
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2491,7 +2494,7 @@ BoxCollider:
   m_Center: {x: 0, y: 0.03997028, z: -0.012036338}
 --- !u!95 &324216558
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95929292880924212, guid: 94fd8b1fd267eaa40b0ebb5dc647610f, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -2508,7 +2511,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &324216559
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2774,7 +2778,7 @@ BoxCollider:
   m_Center: {x: 0.007068455, y: 0.2229142, z: -0.021350116}
 --- !u!95 &342712334
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95856281090675162, guid: 927347f18286d9c4eb05cd416fc46cd9, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -2791,7 +2795,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &342712335
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2878,7 +2883,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &358164295
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95599933194280616, guid: 927347f18286d9c4eb05cd416fc46cd9, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -2895,7 +2900,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &358164296
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3698,7 +3704,7 @@ BoxCollider:
   m_Center: {x: -0.0035277978, y: 0.10963275, z: 0.028498843}
 --- !u!95 &507004699
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95670057075110754, guid: 94fd8b1fd267eaa40b0ebb5dc647610f, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -3715,7 +3721,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &507004700
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4895,7 +4902,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: -180.00002, z: 0}
 --- !u!95 &667888890
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95203969887478668, guid: 927347f18286d9c4eb05cd416fc46cd9, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -4912,7 +4919,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &667888891
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5121,7 +5129,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: -180.00002, z: 0}
 --- !u!95 &686006828
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95989214838791182, guid: 927347f18286d9c4eb05cd416fc46cd9, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -5138,7 +5146,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &686006829
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5279,7 +5288,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &695976046
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95167253198551078, guid: 927347f18286d9c4eb05cd416fc46cd9, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -5296,7 +5305,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &695976047
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6546,7 +6556,7 @@ BoxCollider:
   m_Center: {x: 0, y: 0.03997028, z: -0.012036338}
 --- !u!95 &802091197
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95277050427606818, guid: 927347f18286d9c4eb05cd416fc46cd9, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -6563,7 +6573,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &802091198
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8050,6 +8061,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   escapeMenu: {fileID: 1354386589}
   RightController: 0
+  exitToLevelName: 
 --- !u!1 &961815672
 GameObject:
   m_ObjectHideFlags: 0
@@ -8086,7 +8098,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &961815674
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95809010134498448, guid: ef3a8b3c6976c15479312009eb2cbcfb, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -8103,7 +8115,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &961815675
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8580,7 +8593,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1028882827
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95876249087107926, guid: 927347f18286d9c4eb05cd416fc46cd9, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -8597,7 +8610,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &1028882828
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9846,7 +9860,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: -180.00002, z: 0}
 --- !u!95 &1192816321
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95248232187956012, guid: 927347f18286d9c4eb05cd416fc46cd9, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -9863,7 +9877,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &1192816322
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9965,7 +9980,7 @@ MeshCollider:
   m_Mesh: {fileID: 4300000, guid: a4344f33bfb064c4da6ae4a743931801, type: 3}
 --- !u!95 &1197324432
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95266368551032898, guid: 94fd8b1fd267eaa40b0ebb5dc647610f, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -9982,7 +9997,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &1197324433
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10831,7 +10847,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1294299287
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95217617959531858, guid: 94fd8b1fd267eaa40b0ebb5dc647610f, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -10848,7 +10864,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &1294299288
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11000,7 +11017,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1305105768
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95352520216628926, guid: 927347f18286d9c4eb05cd416fc46cd9, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -11017,7 +11034,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &1305105769
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11962,6 +11980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   escapeMenu: {fileID: 1354386589}
   RightController: 1
+  exitToLevelName: 
 --- !u!1 &1354386587 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8558580760112841121, guid: 4cae9cf15bb64c340bf5770148455671, type: 3}
@@ -11981,6 +12000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   escapeMenu: {fileID: 1354386589}
   RightController: 0
+  exitToLevelName: 
 --- !u!1 &1354386589 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7769624782947331053, guid: 4cae9cf15bb64c340bf5770148455671, type: 3}
@@ -17095,7 +17115,7 @@ BoxCollider:
   m_Center: {x: 0, y: 0.03997028, z: -0.012036338}
 --- !u!95 &1978724734
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95640374046551398, guid: 94fd8b1fd267eaa40b0ebb5dc647610f, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -17112,7 +17132,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &1978724735
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18230,7 +18251,7 @@ BoxCollider:
   m_Center: {x: 0.0026652291, y: 0.20157811, z: 0.011718005}
 --- !u!95 &2141119520
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95994403122154874, guid: 94fd8b1fd267eaa40b0ebb5dc647610f, type: 3}
   m_PrefabInstance: {fileID: 0}
@@ -18247,7 +18268,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &2141119521
 MeshRenderer:
   m_ObjectHideFlags: 0

@@ -355,7 +355,9 @@ MonoBehaviour:
   hintList:
   - Test
   - Boyyy
+  pointManager: {fileID: 0}
   myText: {fileID: 2015725631780011420}
+  minusPointsHints: 0
 --- !u!1 &8279098093852585979
 GameObject:
   m_ObjectHideFlags: 0

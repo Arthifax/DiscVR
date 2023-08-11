@@ -135,8 +135,16 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 4294967295
+  m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -179,6 +187,9 @@ MonoBehaviour:
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -276,7 +287,7 @@ PrefabInstance:
     - target: {fileID: 7373467122229037765, guid: 1f964e519be21e74090020a2bbdb0f43, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: e823cd5b5d27c0f4b8256e7c12ee3e6d, type: 2}
     - target: {fileID: 7837780927006997474, guid: 1f964e519be21e74090020a2bbdb0f43, type: 3}
       propertyPath: playOnAwake
       value: 0
@@ -394,7 +405,7 @@ PrefabInstance:
     - target: {fileID: 7373467122229037765, guid: 1f964e519be21e74090020a2bbdb0f43, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: e823cd5b5d27c0f4b8256e7c12ee3e6d, type: 2}
     - target: {fileID: 7837780927006997474, guid: 1f964e519be21e74090020a2bbdb0f43, type: 3}
       propertyPath: playOnAwake
       value: 0
@@ -512,7 +523,7 @@ PrefabInstance:
     - target: {fileID: 7373467122229037765, guid: 1f964e519be21e74090020a2bbdb0f43, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: e823cd5b5d27c0f4b8256e7c12ee3e6d, type: 2}
     - target: {fileID: 7837780927006997474, guid: 1f964e519be21e74090020a2bbdb0f43, type: 3}
       propertyPath: playOnAwake
       value: 0
