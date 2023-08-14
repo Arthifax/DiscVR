@@ -28,7 +28,7 @@ public class VaultManager : MonoBehaviour
 
     private void StartBombStep()
     {
-        bombVisual.SetActive(true);
+        //bombVisual.SetActive(true);
         bombPlaceLocation.SetActive(true);
     }
 
