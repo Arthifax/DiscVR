@@ -7,6 +7,7 @@ public class VaultManager : MonoBehaviour
     [Header("Screws")]
     [SerializeField] public List<int> correctScrewNumbers;
     [SerializeField] public int amountChosenCorrectly;
+    [SerializeField] public List<GameObject> correctScrews;
 
     [Header("Bomb")]
     [SerializeField] private GameObject bombVisual;
