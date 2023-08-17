@@ -12,6 +12,10 @@ public class VaultManager : MonoBehaviour
     [Header("Bomb")]
     [SerializeField] private GameObject bombVisual;
     [SerializeField] private GameObject bombPlaceLocation;
+    [SerializeField] private GameObject explosion;
+    [SerializeField] private AudioSource playerAudioSource;
+    [SerializeField] private AudioClip explosionSound;
+    [SerializeField] private AudioClip vaultOpening;
 
     [Header("Vault Door")]
     [SerializeField] private GameObject vaultDoor;
@@ -45,6 +49,13 @@ public class VaultManager : MonoBehaviour
         float elapsedTime = 0f;
         Quaternion startRotation = vaultDoor.transform.rotation;
         Quaternion targetQuaternion = Quaternion.Euler(targetRotation);
+
+        explosion.SetActive(true);
+        playerAudioSource.PlayOneShot(explosionSound);
+
+        yield return new WaitForSeconds(2f);
+
+        playerAudioSource.PlayOneShot(vaultOpening);
 
         while (elapsedTime < 1f)
         {
