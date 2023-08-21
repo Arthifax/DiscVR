@@ -1128,7 +1128,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 11
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &78663147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3555,7 +3554,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 10
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &220659371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4192,7 +4190,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 1
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &288772176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5067,7 +5064,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 13
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &329386523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5699,7 +5695,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 14
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &341392732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9176,7 +9171,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 5
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &525043577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11815,7 +11809,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 3
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &648486733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12692,7 +12685,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 12
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &678272274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15112,7 +15104,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 16
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &825909029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15938,7 +15929,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 15
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &883131576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18516,7 +18506,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 9
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &1074002167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19064,6 +19053,7 @@ MonoBehaviour:
   vfxSparks: {fileID: 1809630526}
   index: 0
   alarmLight: {fileID: 1244573915}
+  greenAlarmMat: {fileID: 2100000, guid: a943426e686390d4e95dd1ef7ec4cf0f, type: 2}
   redAlarmMat: {fileID: 2100000, guid: b1f66b62ae60ef84fb326f77e54090d2, type: 2}
 --- !u!1 &1113241059
 GameObject:
@@ -19340,7 +19330,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 8
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &1141084976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21293,7 +21282,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a943426e686390d4e95dd1ef7ec4cf0f, type: 2}
+  - {fileID: 2100000, guid: 4cd790ac0d37bdc46970f6688c6b5070, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23931,7 +23920,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 4
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &1438575402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24732,6 +24720,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4707527975975092, guid: 3760d76c5f2122a41888e7d1666b7535, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707527975975092, guid: 3760d76c5f2122a41888e7d1666b7535, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.193
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707527975975092, guid: 3760d76c5f2122a41888e7d1666b7535, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707527975975092, guid: 3760d76c5f2122a41888e7d1666b7535, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707527975975092, guid: 3760d76c5f2122a41888e7d1666b7535, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707527975975092, guid: 3760d76c5f2122a41888e7d1666b7535, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707527975975092, guid: 3760d76c5f2122a41888e7d1666b7535, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889137395422932, guid: 3760d76c5f2122a41888e7d1666b7535, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0506
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889137395422932, guid: 3760d76c5f2122a41888e7d1666b7535, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.234
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889137395422932, guid: 3760d76c5f2122a41888e7d1666b7535, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0883
+      objectReference: {fileID: 0}
     - target: {fileID: 199494985965744992, guid: 3760d76c5f2122a41888e7d1666b7535, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
@@ -24819,7 +24847,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Green
+          m_StringArgument: Wire2_Green
           m_BoolArgument: 0
         m_CallState: 2
   m_Deactivated:
@@ -24934,7 +24962,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Red
+          m_StringArgument: Wire1_Red
           m_BoolArgument: 0
         m_CallState: 2
   m_Deactivated:
@@ -25049,7 +25077,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Yellow
+          m_StringArgument: Wire3_Yellow
           m_BoolArgument: 0
         m_CallState: 2
   m_Deactivated:
@@ -30248,7 +30276,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 6
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &1826791350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32001,7 +32028,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 2
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &1949685840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32201,6 +32227,152 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953577811}
   m_Mesh: {fileID: -2127577144142813693, guid: ae13f323172b6aa4098286bceea4820a, type: 3}
+--- !u!1 &1954981393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1668128195405958, guid: 3760d76c5f2122a41888e7d1666b7535, type: 3}
+  m_PrefabInstance: {fileID: 1467172598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1954981398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954981393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 847446fc9d7548c46818aeef3d8920ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOpen: 0
+  targetRotation: {x: 0, y: 20, z: 0}
+  rotSpeed: 1
+--- !u!114 &1954981399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954981393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 997686247}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1954981398}
+        m_TargetAssemblyTypeName: BoxLidController, Assembly-CSharp
+        m_MethodName: ToggleRotation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1954981398}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!65 &1954981400
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954981393}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.39616472, y: 0.6044361, z: 0.09008407}
+  m_Center: {x: -0.19750354, y: 0, z: -0.038964264}
 --- !u!1001 &1959704431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34708,7 +34880,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.514
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -35561,7 +35733,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Blue
+          m_StringArgument: Wire3_Blue
           m_BoolArgument: 0
         m_CallState: 2
   m_Deactivated:
@@ -36295,7 +36467,6 @@ MonoBehaviour:
   selectedMat: {fileID: 2100000, guid: 75ff7c9cb9b244f4db87598e96f033e6, type: 2}
   screwNumber: 7
   isCorrectScrew: 0
-  wireBoxPuzzleCompleted: 0
 --- !u!114 &8508855232382765845
 MonoBehaviour:
   m_ObjectHideFlags: 0
