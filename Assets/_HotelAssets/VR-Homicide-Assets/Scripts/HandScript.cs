@@ -49,7 +49,7 @@ public class HandScript : MonoBehaviour
                 {
                     if (Physics.Raycast(transform.position, transform.forward, out hit))
                     {
-                        if (hit.collider.isTrigger && hit.transform.tag == tagName)
+                        if (hit.transform.tag == tagName)
                         {
                             player.transform.position = new Vector3(hit.transform.position.x, player.transform.position.y, hit.transform.position.z);
                         }

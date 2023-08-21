@@ -22,6 +22,8 @@ public class VaultManager : MonoBehaviour
     [SerializeField] private Vector3 doorTargetRotation;
     [SerializeField] private float doorOpenSpeed = 3f;
 
+    public bool wireBoxPuzzleCompleted = false;
+
 
     public void CheckVaultScrews()
     {

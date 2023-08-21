@@ -11,6 +11,7 @@ public class VaultScrew : MonoBehaviour
     [SerializeField] private int screwNumber;
     [SerializeField] private bool isCorrectScrew = false;
     
+
     private Renderer renderer;
     private bool isClicked = false;
 
@@ -30,7 +31,7 @@ public class VaultScrew : MonoBehaviour
 
     public void VaultScrewInteract()
     {
-        if (!isClicked)
+        if (!isClicked && vaultManager.wireBoxPuzzleCompleted)
         {
             renderer.material = selectedMat;
             isClicked = true;
