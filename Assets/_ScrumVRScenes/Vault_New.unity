@@ -36070,8 +36070,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctScrewNumbers: 0a0000000b0000000d0000000f000000
+  maxChoosableAmount: 4
+  amountChosen: 0
   amountChosenCorrectly: 0
   correctScrews: []
+  defaultScrewMat: {fileID: 2100000, guid: 5df398af022f5ba40a11b0c38760f5ec, type: 2}
   bombVisual: {fileID: 1418579879}
   bombPlaceLocation: {fileID: 1218710767}
   explosion: {fileID: 1220389131}

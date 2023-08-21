@@ -6,8 +6,11 @@ public class VaultManager : MonoBehaviour
 {
     [Header("Screws")]
     [SerializeField] public List<int> correctScrewNumbers;
+    [SerializeField] public int maxChoosableAmount = 4;
+    [SerializeField] public int amountChosen = 0;
     [SerializeField] public int amountChosenCorrectly;
     [SerializeField] public List<GameObject> correctScrews;
+    [SerializeField] private Material defaultScrewMat;
 
     [Header("Bomb")]
     [SerializeField] private GameObject bombVisual;
@@ -30,6 +33,11 @@ public class VaultManager : MonoBehaviour
         if(amountChosenCorrectly == correctScrewNumbers.Count)
         {
             StartBombStep();
+
+            for (int i = 0; i < correctScrews.Count; i++) //set all screws back to their default material
+            {
+                correctScrews[i].GetComponent<Renderer>().material = defaultScrewMat;
+            }
         }
     }
 

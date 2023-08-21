@@ -31,22 +31,30 @@ public class VaultScrew : MonoBehaviour
 
     public void VaultScrewInteract()
     {
-        if (!isClicked && vaultManager.wireBoxPuzzleCompleted)
+        
+        if (!isClicked && vaultManager.wireBoxPuzzleCompleted) //check if the screw wasn't clicked and the fusebox puzzle is completed
         {
-            renderer.material = selectedMat;
-            isClicked = true;
-
-            if (isCorrectScrew)
+            if (vaultManager.amountChosen < vaultManager.maxChoosableAmount) //check if we aren't yet at the choosing limit
             {
-                vaultManager.amountChosenCorrectly++;
-                vaultManager.CheckVaultScrews();
+                renderer.material = selectedMat;
+                isClicked = true;
+                vaultManager.amountChosen++;
+
+                if (isCorrectScrew)
+                {
+                    vaultManager.amountChosenCorrectly++;
+                    vaultManager.CheckVaultScrews();
+                }
             }
         }
         else
         {
             renderer.material = defaultMat;
             isClicked = false;
-
+            if(vaultManager.amountChosen > 0)
+            {
+                vaultManager.amountChosen--;
+            }
             if (isCorrectScrew)
             {
                 vaultManager.amountChosenCorrectly--;
