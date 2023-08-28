@@ -25,8 +25,8 @@ public class ViewableItem : MonoBehaviour
     {
         startingLocalPos = item.transform.localPosition;
         startingRotation = item.transform.localRotation;
-        var gameControllers = new List<UnityEngine.XR.InputDevice>();
-        UnityEngine.XR.InputDevices.GetDevicesWithRole(UnityEngine.XR.InputDeviceRole.GameController, gameControllers);
+        //var gameControllers = new List<UnityEngine.XR.InputDevice>();
+        //UnityEngine.XR.InputDevices.GetDevicesWithRole(UnityEngine.XR.InputDeviceRole.GameController, gameControllers);
     }
 
     public void ViewItem()
