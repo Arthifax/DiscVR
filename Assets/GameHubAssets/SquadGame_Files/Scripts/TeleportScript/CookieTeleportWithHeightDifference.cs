@@ -34,7 +34,7 @@ public class CookieTeleportWithHeightDifference : MonoBehaviour
                 {
                     if (Physics.Raycast(transform.position, transform.forward, out hit))
                     {
-                        if (allowTeleport && hit.collider.isTrigger && hit.transform.tag == tagName)
+                        if (allowTeleport && hit.transform.tag == tagName)
                         {
                             GameObject objectHit = hit.transform.gameObject;
                             player.transform.position = new Vector3(objectHit.transform.position.x, objectHit.transform.position.y+ yHeightAdded, objectHit.transform.position.z);
