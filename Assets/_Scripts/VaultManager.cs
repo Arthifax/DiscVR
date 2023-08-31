@@ -6,7 +6,7 @@ public class VaultManager : MonoBehaviour
 {
     [Header("Screws")]
     [SerializeField] public List<int> correctScrewNumbers;
-    [SerializeField] public int maxChoosableAmount = 4;
+    [SerializeField] public int maxChoosableAmount = 5;
     [SerializeField] public int amountChosen = 0;
     [SerializeField] public int amountChosenCorrectly;
     [SerializeField] public List<GameObject> correctScrews;
