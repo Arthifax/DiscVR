@@ -5,4 +5,5 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     public bool isHoldingItem = false;
+    public bool hasTakenOneWatch = false;
 }
