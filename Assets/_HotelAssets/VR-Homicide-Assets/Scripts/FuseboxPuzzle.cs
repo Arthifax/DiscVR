@@ -31,6 +31,10 @@ public class FuseboxPuzzle : MonoBehaviour
         else if (wireList[index].name.Contains("Yellow") || !wireList[index].name.Equals(wireColor))
         {
             alarmLight.GetComponent<Renderer>().material = redAlarmMat;
+            for (int i = 0; i < wireList.Count; i++)
+            {
+                wireList[i].SetActive(true);
+            }
         }
     }
 }

@@ -82,5 +82,10 @@ public class NPCController : MonoBehaviour
             playerTextField.text = characterText;
         }
     }
+
+    public void ChangeNPCText(string newText)
+    {
+        characterText = newText;
+    }
 }
 
