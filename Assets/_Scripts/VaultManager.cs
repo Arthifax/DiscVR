@@ -19,6 +19,7 @@ public class VaultManager : MonoBehaviour
     [SerializeField] private GameObject bombPlaceLocation;
     [SerializeField] private GameObject explosionDecal;
     [SerializeField] private GameObject explosion;
+    [SerializeField] private GameObject secondExplosion;
     [SerializeField] private GameObject teleportersInVault;
     [SerializeField] private TextMeshPro timerText;
     [SerializeField] private AudioSource playerAudioSource;
@@ -88,6 +89,7 @@ public class VaultManager : MonoBehaviour
         timerText.text = "00:00";
 
         explosion.SetActive(true);
+        secondExplosion.SetActive(true);
         explosionDecal.SetActive(true);
         bombOnDoorVisual.SetActive(false);
         playerAudioSource.PlayOneShot(explosionSound);
