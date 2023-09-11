@@ -51,5 +51,7 @@ public class FuseboxPuzzle : MonoBehaviour
         playerAudio.Play();
         alarmLight.GetComponent<Renderer>().material = greenAlarmMat;
         vaultManager.wireBoxPuzzleCompleted = true;
+        yield return new WaitForSeconds(2f);
+        vfxSparks.SetActive(false);
     }
 }

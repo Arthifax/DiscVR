@@ -52,7 +52,6 @@ public class VaultManager : MonoBehaviour
     {
         bombVisual.SetActive(true);
         bombPlaceLocation.SetActive(true);
-        StartCoroutine(OpenVaultDoor(doorTargetRotation, doorOpenSpeed));
     }
 
     public void CompleteVaultPuzzle()

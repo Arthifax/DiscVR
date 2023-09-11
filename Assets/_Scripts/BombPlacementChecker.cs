@@ -6,6 +6,7 @@ public class BombPlacementChecker : MonoBehaviour
 {
 
     private bool bombIsInCorrectSpot = false;
+    [SerializeField] private VaultManager vaultManager;
     [SerializeField] GameObject placedBombObject;
     [SerializeField] GameObject draggableBombPrefab;
 
@@ -15,6 +16,7 @@ public class BombPlacementChecker : MonoBehaviour
         {
             placedBombObject.SetActive(true);
             draggableBombPrefab.SetActive(false);
+            vaultManager.CompleteVaultPuzzle();
         }
     }
 }
