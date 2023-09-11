@@ -15,6 +15,10 @@ public class FuseboxPuzzle : MonoBehaviour
     [SerializeField] private Material redAlarmMat;
     private bool isEqual;
 
+    [SerializeField] private AudioSource playerAudio;
+    [SerializeField] private AudioClip correctSound;
+    [SerializeField] private AudioClip electricitySound;
+
     public void CheckWire(string wireColor)
     {
         if (wireList[index].name.Contains(wireColor))
@@ -23,9 +27,7 @@ public class FuseboxPuzzle : MonoBehaviour
             index++;
             if (index == 3)
             {
-                vfxSparks.SetActive(true);
-                alarmLight.GetComponent<Renderer>().material = greenAlarmMat;
-                vaultManager.wireBoxPuzzleCompleted = true;
+                StartCoroutine(PlayVictoryRoutine());
             }
         }
         else
@@ -37,5 +39,17 @@ public class FuseboxPuzzle : MonoBehaviour
                 wireList[i].SetActive(true);
             }
         }
+    }
+
+    private IEnumerator PlayVictoryRoutine()
+    {
+        playerAudio.clip = electricitySound;
+        playerAudio.Play();
+        vfxSparks.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        playerAudio.clip = correctSound;
+        playerAudio.Play();
+        alarmLight.GetComponent<Renderer>().material = greenAlarmMat;
+        vaultManager.wireBoxPuzzleCompleted = true;
     }
 }

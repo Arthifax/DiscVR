@@ -14,8 +14,7 @@ public class WatchCaseAlarm : MonoBehaviour
         if (player.hasTakenOneWatch)
         {
             alarmLight.SetActive(true);
-            playerAudio.clip = alarmSound;
-            playerAudio.Play();
+            StartCoroutine(PlayAlarmSound());
         }
     }
 
@@ -25,5 +24,13 @@ public class WatchCaseAlarm : MonoBehaviour
         {
             player.hasTakenOneWatch = true;
         }
+    }
+
+    private IEnumerator PlayAlarmSound()
+    {
+        playerAudio.clip = alarmSound;
+        playerAudio.Play();
+        yield return new WaitForSeconds(30f);
+        playerAudio.Stop();
     }
 }
