@@ -17,7 +17,7 @@ public class FuseboxPuzzle : MonoBehaviour
 
     public void CheckWire(string wireColor)
     {
-        if (wireList[index].name.Equals(wireColor))
+        if (wireList[index].name.Contains(wireColor))
         {
             wireList[index].SetActive(false);
             index++;
@@ -28,9 +28,10 @@ public class FuseboxPuzzle : MonoBehaviour
                 vaultManager.wireBoxPuzzleCompleted = true;
             }
         }
-        else if (wireList[index].name.Contains("Yellow") || !wireList[index].name.Equals(wireColor))
+        else
         {
             alarmLight.GetComponent<Renderer>().material = redAlarmMat;
+            index = 0;
             for (int i = 0; i < wireList.Count; i++)
             {
                 wireList[i].SetActive(true);
