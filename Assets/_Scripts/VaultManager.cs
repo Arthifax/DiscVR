@@ -21,11 +21,13 @@ public class VaultManager : MonoBehaviour
     [SerializeField] private GameObject explosion;
     [SerializeField] private GameObject secondExplosion;
     [SerializeField] private GameObject teleportersInVault;
+    [SerializeField] private GameObject vaultCongradsText;
     [SerializeField] private TextMeshPro timerText;
     [SerializeField] private AudioSource playerAudioSource;
     [SerializeField] private AudioClip explosionSound;
     [SerializeField] private AudioClip vaultOpening;
     [SerializeField] private AudioClip countdownSound;
+    [SerializeField] private AudioClip heroicVictorySound;
 
     [Header("Vault Door")]
     [SerializeField] private GameObject vaultDoor;
@@ -106,5 +108,11 @@ public class VaultManager : MonoBehaviour
         }
 
         vaultDoor.transform.rotation = targetQuaternion; // Ensure we reach the exact target rotation.
+
+        playerAudioSource.PlayOneShot(heroicVictorySound);
+
+        yield return new WaitForSeconds(7f);
+
+        vaultCongradsText.SetActive(false);
     }
 }

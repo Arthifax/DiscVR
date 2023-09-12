@@ -7,14 +7,16 @@ public class WatchCaseAlarm : MonoBehaviour
     [SerializeField] private PlayerManager player;
     [SerializeField] private GameObject alarmLight;
     [SerializeField] private AudioSource playerAudio;
+    [SerializeField] private AudioClip gameMusic;
     [SerializeField] private AudioClip alarmSound;
+    [SerializeField] private CountdownClock countdownClock;
+    [SerializeField] private float alarmTime = 30f;
 
     public void CheckingWatch()
     {
         if (player.hasTakenOneWatch)
         {
-            alarmLight.SetActive(true);
-            StartCoroutine(PlayAlarmSound());
+            TriggerAlarm();
         }
     }
 
@@ -26,11 +28,22 @@ public class WatchCaseAlarm : MonoBehaviour
         }
     }
 
-    private IEnumerator PlayAlarmSound()
+    public void TriggerAlarm()
+    {
+        alarmLight.SetActive(true);
+        StartCoroutine(PlayAlarmRoutine());
+    }
+
+    private IEnumerator PlayAlarmRoutine()
     {
         playerAudio.clip = alarmSound;
         playerAudio.Play();
-        yield return new WaitForSeconds(30f);
+        countdownClock.timerTickSpeed = 0.5f;
+        yield return new WaitForSeconds(alarmTime);
+        alarmLight.SetActive(false);
+        countdownClock.timerTickSpeed = 1f;
         playerAudio.Stop();
+        playerAudio.clip = gameMusic;
+        playerAudio.Play();
     }
 }

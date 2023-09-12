@@ -5301,7 +5301,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: +31-539184266
+  m_text: + 31 (0) 346230041
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4659bf872d697c64097fd597ab25e2e3, type: 2}
   m_sharedMaterial: {fileID: 5620285587097672167, guid: 4659bf872d697c64097fd597ab25e2e3, type: 2}
@@ -11663,6 +11663,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5980260230359381750, guid: 5097368a9ceaa354aa613a5b06e8bfd8, type: 3}
   m_PrefabInstance: {fileID: 569622488}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &586945085 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2740940270782092743, guid: 207b73071cbb0dc4187d8cbda831f920, type: 3}
+  m_PrefabInstance: {fileID: 1710772248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb3aaa7ceb5ffb428b8de3301882a55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &599394543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22644,7 +22655,38 @@ MonoBehaviour:
   player: {fileID: 1981512340}
   alarmLight: {fileID: 1561359661}
   playerAudio: {fileID: 2125794017}
+  gameMusic: {fileID: 8300000, guid: e322e112800384747b1fe0511f75477a, type: 3}
   alarmSound: {fileID: 8300000, guid: 68fd78c162dbe1a428e31fa543bcfca6, type: 3}
+  countdownClock: {fileID: 586945085}
+  alarmTime: 30
+--- !u!114 &1083504023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986510187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd2d4cd5a51af4542ba02934d9f93334, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1083504022}
+        m_TargetAssemblyTypeName: WatchCaseAlarm, Assembly-CSharp
+        m_MethodName: TriggerAlarm
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  play: 0
 --- !u!1001 &1088390757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23113,7 +23155,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Polish watch collection
+  m_text: polish watch collection
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4659bf872d697c64097fd597ab25e2e3, type: 2}
   m_sharedMaterial: {fileID: 5620285587097672167, guid: 4659bf872d697c64097fd597ab25e2e3, type: 2}
@@ -32105,7 +32147,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1654950943
 Transform:
   m_ObjectHideFlags: 0

@@ -17,6 +17,7 @@ public class CountdownClock : MonoBehaviour
     [SerializeField] private UnityEvent TimeDoneEvent;
     [Space]
     [SerializeField] private bool Test;
+    [SerializeField] public float timerTickSpeed = 1f;
 
     private void Start()
     {
@@ -58,7 +59,7 @@ public class CountdownClock : MonoBehaviour
 
     IEnumerator timer()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(timerTickSpeed);
         int currentTime = timerClock;
         didgits[index].setNumber(Mathf.FloorToInt(currentTime / (600)));
         index += 1;
