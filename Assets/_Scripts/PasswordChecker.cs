@@ -8,7 +8,9 @@ public class PasswordChecker : MonoBehaviour
 {
     [SerializeField] Text displayText;
     [SerializeField] string correctPassword;
-    
+    [SerializeField] string noCapsCorrectPassword;
+    [SerializeField] string allCapsCorrectPassword;
+
     [SerializeField] UnityEvent correctEvent, wrongEvent;
 
     [SerializeField] AudioSource audioSource;
@@ -19,7 +21,7 @@ public class PasswordChecker : MonoBehaviour
 
     public void TryPassword()
     {
-        if (displayText.text == correctPassword)
+        if (displayText.text == correctPassword || displayText.text == noCapsCorrectPassword || displayText.text == allCapsCorrectPassword)
         {
             correctEvent.Invoke();
             audioSource.PlayOneShot(succesSfx);
