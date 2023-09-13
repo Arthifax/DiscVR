@@ -12,9 +12,11 @@ public class ViewableItem : MonoBehaviour
 {
     [SerializeField] private GameObject item;
     [SerializeField] private String itemText;
+    [SerializeField] private String itemDescription;
     [SerializeField] private PlayerManager player;
     [SerializeField] private GameObject holdingPos;
     [SerializeField] private TextMeshPro itemTextField;
+    [SerializeField] private TextMeshPro itemDescriptionField;
     [SerializeField] private GameObject deactivationObject;
     [SerializeField] private Vector3 itemHoldingRotation;
     private bool isBeingHeld = false;
@@ -39,6 +41,7 @@ public class ViewableItem : MonoBehaviour
             item.transform.rotation *=
                 UnityEngine.Quaternion.Euler(itemHoldingRotation.x, itemHoldingRotation.y, itemHoldingRotation.z);
             itemTextField.text = itemText;
+            itemDescriptionField.text = itemDescription;
             deactivationObject.SetActive(true);
             player.isHoldingItem = true;
             isBeingHeld = true;
@@ -49,6 +52,7 @@ public class ViewableItem : MonoBehaviour
             item.transform.localPosition = startingLocalPos;
             item.transform.localRotation = startingRotation;
             itemTextField.text = "";
+            itemDescriptionField.text = "";
             deactivationObject.SetActive(false);
             player.isHoldingItem = false;
             isBeingHeld = false;
