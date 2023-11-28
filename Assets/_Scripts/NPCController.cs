@@ -14,7 +14,7 @@ public class NPCController : MonoBehaviour
 
     [SerializeField] private TextMeshPro playerTextField;
     [SerializeField] private String characterText;
-    private bool canTalk = false;
+    [SerializeField] private bool canTalk = false;
     float targetWeight = 0;
 
     private void OnTriggerEnter(Collider other)

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 using Weelco.VRKeyboard;
 
@@ -8,7 +9,7 @@ namespace Weelco {
 
         public int maxOutputChars = 30;
 
-        public Text inputFieldLabel;
+        public TextMeshProUGUI inputFieldLabel;
         public VRKeyboardFull keyboard;
 
         void Start() {
